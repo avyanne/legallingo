@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "legallingo-backend"
+version = "1.0.0"
+description = "LegalLingo API"
+authors = ["Your Name"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.104.0"
+uvicorn = {version = "^0.24.0", extras = ["standard"]}
+motor = "^3.3.0"
+pydantic = "^2.5.0"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[[tool.poetry.source]]
+name = "PyPI"
+url = "https://pypi.org/simple"
